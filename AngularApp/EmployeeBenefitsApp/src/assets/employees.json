@@ -1,0 +1,5 @@
+[
+    {"Name":"EmpA", "Spouse":"SpouseA", "Dependent":["DependentA1", "DependentA2"]},
+    {"Name":"EmpB", "Spouse":"SpouseB", "Dependent":["DependentB"]},    
+    {"Name":"EmpC", "Spouse":"SpouseC", "Dependent":["DependentC"]}
+]
