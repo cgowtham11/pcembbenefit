@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CommandHandler\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeBenefits.Application\EmployeeBenefits.Application.csproj" />
+    <ProjectReference Include="..\EmployeeBenefits.Domain\EmployeeBenefits.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

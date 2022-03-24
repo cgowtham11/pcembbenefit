@@ -1,0 +1,1076 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeBenefitsApi.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController">
+            <summary>Shim type of EmployeeBenefitsApi.Controllers.EmployeeController</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.#ctor(EmployeeBenefitsApi.Controllers.EmployeeController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.AllInstances.GetAsync">
+            <summary>Sets the Shim of EmployeeController.GetAsync(EmployeeController this)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.AllInstances.GetAsyncEmployee">
+            <summary>Sets the Shim of EmployeeController.GetAsync(EmployeeController this, Employee employee)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.ConstructorIEmployeeQueryIEmployeeBenefitService">
+            <summary>Sets the Shim of EmployeeController.EmployeeController(EmployeeController this, IEmployeeQuery employeeQuery, IEmployeeBenefitService employeeBenefitService)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.GetAsync">
+            <summary>Sets the Shim of EmployeeController.GetAsync(EmployeeController this)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.ShimEmployeeController.GetAsyncEmployee">
+            <summary>Sets the Shim of EmployeeController.GetAsync(EmployeeController this, Employee employee)</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController">
+            <summary>Stub type of EmployeeBenefitsApi.Controllers.EmployeeController</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.#ctor(EmployeeBenefits.Application.IEmployeeQuery,EmployeeBenefits.Application.Queries.IEmployeeBenefitService)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Accepted">
+            <summary>Sets the Stub of ControllerBase.Accepted(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Accepted(System.Object)">
+            <summary>Sets the Stub of ControllerBase.Accepted(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Accepted(System.String)">
+            <summary>Sets the Stub of ControllerBase.Accepted(ControllerBase this, String uri)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Accepted(System.Uri)">
+            <summary>Sets the Stub of ControllerBase.Accepted(ControllerBase this, Uri uri)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Accepted(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.Accepted(ControllerBase this, String uri, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Accepted(System.Uri,System.Object)">
+            <summary>Sets the Stub of ControllerBase.Accepted(ControllerBase this, Uri uri, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Accepted01">
+            <summary>Sets the stub of ControllerBase.Accepted(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtAction(System.String)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtAction(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtAction(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, String controllerName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtAction(System.String,System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtAction(System.String,System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, String controllerName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtAction(System.String,System.String,System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, String controllerName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtActionString">
+            <summary>Sets the stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtActionStringObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtActionStringObjectObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtActionStringString">
+            <summary>Sets the stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, String controllerName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtActionStringStringObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, String controllerName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtActionStringStringObjectObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtAction(ControllerBase this, String actionName, String controllerName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRoute(System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtRoute(ControllerBase this, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRoute(System.String)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtRoute(ControllerBase this, String routeName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRoute(System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtRoute(ControllerBase this, Object routeValues, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRoute(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtRoute(ControllerBase this, String routeName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRoute(System.String,System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.AcceptedAtRoute(ControllerBase this, String routeName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRouteObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtRoute(ControllerBase this, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRouteObjectObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtRoute(ControllerBase this, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRouteString">
+            <summary>Sets the stub of ControllerBase.AcceptedAtRoute(ControllerBase this, String routeName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRouteStringObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtRoute(ControllerBase this, String routeName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedAtRouteStringObjectObject">
+            <summary>Sets the stub of ControllerBase.AcceptedAtRoute(ControllerBase this, String routeName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedObject">
+            <summary>Sets the stub of ControllerBase.Accepted(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedString">
+            <summary>Sets the stub of ControllerBase.Accepted(ControllerBase this, String uri)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedStringObject">
+            <summary>Sets the stub of ControllerBase.Accepted(ControllerBase this, String uri, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedUri">
+            <summary>Sets the stub of ControllerBase.Accepted(ControllerBase this, Uri uri)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.AcceptedUriObject">
+            <summary>Sets the stub of ControllerBase.Accepted(ControllerBase this, Uri uri, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the Stub of ControllerBase.BadRequest(ControllerBase this, ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.BadRequest(System.Object)">
+            <summary>Sets the Stub of ControllerBase.BadRequest(ControllerBase this, Object error)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.BadRequest">
+            <summary>Sets the Stub of ControllerBase.BadRequest(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.BadRequest01">
+            <summary>Sets the stub of ControllerBase.BadRequest(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.BadRequestModelStateDictionary">
+            <summary>Sets the stub of ControllerBase.BadRequest(ControllerBase this, ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.BadRequestObject">
+            <summary>Sets the stub of ControllerBase.BadRequest(ControllerBase this, Object error)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Challenge">
+            <summary>Sets the Stub of ControllerBase.Challenge(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Challenge(System.String[])">
+            <summary>Sets the Stub of ControllerBase.Challenge(ControllerBase this, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Challenge(Microsoft.AspNetCore.Authentication.AuthenticationProperties)">
+            <summary>Sets the Stub of ControllerBase.Challenge(ControllerBase this, AuthenticationProperties properties)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Challenge(Microsoft.AspNetCore.Authentication.AuthenticationProperties,System.String[])">
+            <summary>Sets the Stub of ControllerBase.Challenge(ControllerBase this, AuthenticationProperties properties, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Challenge01">
+            <summary>Sets the stub of ControllerBase.Challenge(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ChallengeAuthenticationProperties">
+            <summary>Sets the stub of ControllerBase.Challenge(ControllerBase this, AuthenticationProperties properties)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ChallengeAuthenticationPropertiesStringArray">
+            <summary>Sets the stub of ControllerBase.Challenge(ControllerBase this, AuthenticationProperties properties, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ChallengeStringArray">
+            <summary>Sets the stub of ControllerBase.Challenge(ControllerBase this, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Conflict(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the Stub of ControllerBase.Conflict(ControllerBase this, ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Conflict(System.Object)">
+            <summary>Sets the Stub of ControllerBase.Conflict(ControllerBase this, Object error)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Conflict">
+            <summary>Sets the Stub of ControllerBase.Conflict(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Conflict01">
+            <summary>Sets the stub of ControllerBase.Conflict(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ConflictModelStateDictionary">
+            <summary>Sets the stub of ControllerBase.Conflict(ControllerBase this, ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ConflictObject">
+            <summary>Sets the stub of ControllerBase.Conflict(ControllerBase this, Object error)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Content(System.String)">
+            <summary>Sets the Stub of ControllerBase.Content(ControllerBase this, String content)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Content(System.String,Microsoft.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.Content(ControllerBase this, String content, MediaTypeHeaderValue contentType)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Content(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.Content(ControllerBase this, String content, String contentType)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the Stub of ControllerBase.Content(ControllerBase this, String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ContentString">
+            <summary>Sets the stub of ControllerBase.Content(ControllerBase this, String content)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ContentStringMediaTypeHeaderValue">
+            <summary>Sets the stub of ControllerBase.Content(ControllerBase this, String content, MediaTypeHeaderValue contentType)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ContentStringString">
+            <summary>Sets the stub of ControllerBase.Content(ControllerBase this, String content, String contentType)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ContentStringStringEncoding">
+            <summary>Sets the stub of ControllerBase.Content(ControllerBase this, String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Created(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.Created(ControllerBase this, String uri, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Created(System.Uri,System.Object)">
+            <summary>Sets the Stub of ControllerBase.Created(ControllerBase this, Uri uri, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtAction(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.CreatedAtAction(ControllerBase this, String actionName, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtAction(System.String,System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.CreatedAtAction(ControllerBase this, String actionName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtAction(System.String,System.String,System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.CreatedAtAction(ControllerBase this, String actionName, String controllerName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtActionStringObject">
+            <summary>Sets the stub of ControllerBase.CreatedAtAction(ControllerBase this, String actionName, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtActionStringObjectObject">
+            <summary>Sets the stub of ControllerBase.CreatedAtAction(ControllerBase this, String actionName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtActionStringStringObjectObject">
+            <summary>Sets the stub of ControllerBase.CreatedAtAction(ControllerBase this, String actionName, String controllerName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtRoute(System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.CreatedAtRoute(ControllerBase this, Object routeValues, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtRoute(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.CreatedAtRoute(ControllerBase this, String routeName, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtRoute(System.String,System.Object,System.Object)">
+            <summary>Sets the Stub of ControllerBase.CreatedAtRoute(ControllerBase this, String routeName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtRouteObjectObject">
+            <summary>Sets the stub of ControllerBase.CreatedAtRoute(ControllerBase this, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtRouteStringObject">
+            <summary>Sets the stub of ControllerBase.CreatedAtRoute(ControllerBase this, String routeName, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedAtRouteStringObjectObject">
+            <summary>Sets the stub of ControllerBase.CreatedAtRoute(ControllerBase this, String routeName, Object routeValues, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedStringObject">
+            <summary>Sets the stub of ControllerBase.Created(ControllerBase this, String uri, Object value)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.CreatedUriObject">
+            <summary>Sets the stub of ControllerBase.Created(ControllerBase this, Uri uri, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String,System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.Byte[],System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String,System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.IO.Stream,System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String,System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.File(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayString">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayStringBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayStringString">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayStringStringBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayStringStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileByteArrayStringStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Byte[] fileContents, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamString">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamStringBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamStringString">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamStringStringBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamStringStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStreamStringStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, Stream fileStream, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringString">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringStringBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringStringString">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringStringStringBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringStringStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.FileStringStringStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.File(ControllerBase this, String virtualPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Forbid">
+            <summary>Sets the Stub of ControllerBase.Forbid(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Forbid(System.String[])">
+            <summary>Sets the Stub of ControllerBase.Forbid(ControllerBase this, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties)">
+            <summary>Sets the Stub of ControllerBase.Forbid(ControllerBase this, AuthenticationProperties properties)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties,System.String[])">
+            <summary>Sets the Stub of ControllerBase.Forbid(ControllerBase this, AuthenticationProperties properties, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Forbid01">
+            <summary>Sets the stub of ControllerBase.Forbid(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ForbidAuthenticationProperties">
+            <summary>Sets the stub of ControllerBase.Forbid(ControllerBase this, AuthenticationProperties properties)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ForbidAuthenticationPropertiesStringArray">
+            <summary>Sets the stub of ControllerBase.Forbid(ControllerBase this, AuthenticationProperties properties, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ForbidStringArray">
+            <summary>Sets the stub of ControllerBase.Forbid(ControllerBase this, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeController</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirect(System.String)">
+            <summary>Sets the Stub of ControllerBase.LocalRedirect(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirectPermanent(System.String)">
+            <summary>Sets the Stub of ControllerBase.LocalRedirectPermanent(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirectPermanentPreserveMethod(System.String)">
+            <summary>Sets the Stub of ControllerBase.LocalRedirectPermanentPreserveMethod(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirectPermanentPreserveMethodString">
+            <summary>Sets the stub of ControllerBase.LocalRedirectPermanentPreserveMethod(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirectPermanentString">
+            <summary>Sets the stub of ControllerBase.LocalRedirectPermanent(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirectPreserveMethod(System.String)">
+            <summary>Sets the Stub of ControllerBase.LocalRedirectPreserveMethod(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirectPreserveMethodString">
+            <summary>Sets the stub of ControllerBase.LocalRedirectPreserveMethod(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.LocalRedirectString">
+            <summary>Sets the stub of ControllerBase.LocalRedirect(ControllerBase this, String localUrl)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.NoContent">
+            <summary>Sets the Stub of ControllerBase.NoContent(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.NoContent01">
+            <summary>Sets the stub of ControllerBase.NoContent(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.NotFound(System.Object)">
+            <summary>Sets the Stub of ControllerBase.NotFound(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.NotFound">
+            <summary>Sets the Stub of ControllerBase.NotFound(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.NotFound01">
+            <summary>Sets the stub of ControllerBase.NotFound(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.NotFoundObject">
+            <summary>Sets the stub of ControllerBase.NotFound(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Ok(System.Object)">
+            <summary>Sets the Stub of ControllerBase.Ok(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Ok">
+            <summary>Sets the Stub of ControllerBase.Ok(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Ok01">
+            <summary>Sets the stub of ControllerBase.Ok(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.OkObject">
+            <summary>Sets the stub of ControllerBase.Ok(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String,System.String,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFile(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},Microsoft.Net.Http.Headers.EntityTagHeaderValue,System.Boolean)">
+            <summary>Sets the Stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringString">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringStringBoolean">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringStringString">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringStringStringBoolean">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringStringStringNullableOfDateTimeOffsetEntityTagHeaderValue">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.PhysicalFileStringStringStringNullableOfDateTimeOffsetEntityTagHeaderValueBoolean">
+            <summary>Sets the stub of ControllerBase.PhysicalFile(ControllerBase this, String physicalPath, String contentType, String fileDownloadName, Nullable`1 lastModified, EntityTagHeaderValue entityTag, Boolean enableRangeProcessing)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Problem(System.String,System.String,System.Nullable{System.Int32},System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.Problem(ControllerBase this, String detail, String instance, Nullable`1 statusCode, String title, String type)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ProblemStringStringNullableOfInt32StringString">
+            <summary>Sets the stub of ControllerBase.Problem(ControllerBase this, String detail, String instance, Nullable`1 statusCode, String title, String type)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Redirect(System.String)">
+            <summary>Sets the Stub of ControllerBase.Redirect(ControllerBase this, String url)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectPermanent(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectPermanent(ControllerBase this, String url)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectPermanentPreserveMethod(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectPermanentPreserveMethod(ControllerBase this, String url)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectPermanentPreserveMethodString">
+            <summary>Sets the stub of ControllerBase.RedirectPermanentPreserveMethod(ControllerBase this, String url)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectPermanentString">
+            <summary>Sets the stub of ControllerBase.RedirectPermanent(ControllerBase this, String url)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectPreserveMethod(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectPreserveMethod(ControllerBase this, String url)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectPreserveMethodString">
+            <summary>Sets the stub of ControllerBase.RedirectPreserveMethod(ControllerBase this, String url)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectString">
+            <summary>Sets the stub of ControllerBase.Redirect(ControllerBase this, String url)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction">
+            <summary>Sets the Stub of ControllerBase.RedirectToAction(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction(System.String,System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction(System.String,System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToAction01">
+            <summary>Sets the stub of ControllerBase.RedirectToAction(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanent(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanent(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanent(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanent(System.String,System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanent(System.String,System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanent(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentPreserveMethod(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPermanentPreserveMethod(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentPreserveMethodStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPermanentPreserveMethod(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentString">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentStringStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPermanentStringStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPermanent(ControllerBase this, String actionName, String controllerName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPreserveMethod(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToActionPreserveMethod(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionPreserveMethodStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToActionPreserveMethod(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionString">
+            <summary>Sets the stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionStringStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToActionStringStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToAction(ControllerBase this, String actionName, String controllerName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPage(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPage(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPage(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPage(System.String,System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPage(System.String,System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPage(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanent(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanent(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanent(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, String pageHandler)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanent(System.String,System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, String pageHandler, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanent(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanentPreserveMethod(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPagePermanentPreserveMethod(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanentPreserveMethodStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToPagePermanentPreserveMethod(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanentString">
+            <summary>Sets the stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanentStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanentStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, String pageHandler)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanentStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePermanentStringStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToPagePermanent(ControllerBase this, String pageName, String pageHandler, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePreserveMethod(System.String,System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToPagePreserveMethod(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPagePreserveMethodStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToPagePreserveMethod(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPageString">
+            <summary>Sets the stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPageStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPageStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPageStringStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPageStringStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToPageStringStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToPage(ControllerBase this, String pageName, String pageHandler, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoute(System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoute(ControllerBase this, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoute(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoute(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoute(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoute(System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRouteObject">
+            <summary>Sets the stub of ControllerBase.RedirectToRoute(ControllerBase this, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanent(System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanent(System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanent(System.String,System.Object)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanent(System.String,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanent(System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanentObject">
+            <summary>Sets the stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, Object routeValues)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanentPreserveMethod(System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoutePermanentPreserveMethod(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanentPreserveMethodStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoutePermanentPreserveMethod(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanentString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanentStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanentStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePermanentStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoutePermanent(ControllerBase this, String routeName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePreserveMethod(System.String,System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.RedirectToRoutePreserveMethod(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRoutePreserveMethodStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoutePreserveMethod(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRouteString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRouteStringObject">
+            <summary>Sets the stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName, Object routeValues)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRouteStringObjectString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName, Object routeValues, String fragment)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.RedirectToRouteStringString">
+            <summary>Sets the stub of ControllerBase.RedirectToRoute(ControllerBase this, String routeName, String fragment)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignIn(System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>Sets the Stub of ControllerBase.SignIn(ControllerBase this, ClaimsPrincipal principal, String authenticationScheme)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignIn(System.Security.Claims.ClaimsPrincipal,Microsoft.AspNetCore.Authentication.AuthenticationProperties,System.String)">
+            <summary>Sets the Stub of ControllerBase.SignIn(ControllerBase this, ClaimsPrincipal principal, AuthenticationProperties properties, String authenticationScheme)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignInClaimsPrincipalAuthenticationPropertiesString">
+            <summary>Sets the stub of ControllerBase.SignIn(ControllerBase this, ClaimsPrincipal principal, AuthenticationProperties properties, String authenticationScheme)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignInClaimsPrincipalString">
+            <summary>Sets the stub of ControllerBase.SignIn(ControllerBase this, ClaimsPrincipal principal, String authenticationScheme)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignOut(System.String[])">
+            <summary>Sets the Stub of ControllerBase.SignOut(ControllerBase this, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignOut(Microsoft.AspNetCore.Authentication.AuthenticationProperties,System.String[])">
+            <summary>Sets the Stub of ControllerBase.SignOut(ControllerBase this, AuthenticationProperties properties, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignOutAuthenticationPropertiesStringArray">
+            <summary>Sets the stub of ControllerBase.SignOut(ControllerBase this, AuthenticationProperties properties, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.SignOutStringArray">
+            <summary>Sets the stub of ControllerBase.SignOut(ControllerBase this, String[] authenticationSchemes)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.StatusCode(System.Int32,System.Object)">
+            <summary>Sets the Stub of ControllerBase.StatusCode(ControllerBase this, Int32 statusCode, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.StatusCode(System.Int32)">
+            <summary>Sets the Stub of ControllerBase.StatusCode(ControllerBase this, Int32 statusCode)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.StatusCodeInt32">
+            <summary>Sets the stub of ControllerBase.StatusCode(ControllerBase this, Int32 statusCode)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.StatusCodeInt32Object">
+            <summary>Sets the stub of ControllerBase.StatusCode(ControllerBase this, Int32 statusCode, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsync``1(``0)">
+            <summary>Sets the Stub of ControllerBase.TryUpdateModelAsync(ControllerBase this, !!0 model)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsync``1(``0,System.String)">
+            <summary>Sets the Stub of ControllerBase.TryUpdateModelAsync(ControllerBase this, !!0 model, String prefix)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsync``1(``0,System.String,Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider)">
+            <summary>Sets the Stub of ControllerBase.TryUpdateModelAsync(ControllerBase this, !!0 model, String prefix, IValueProvider valueProvider)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsync(System.Object,System.Type,System.String)">
+            <summary>Sets the Stub of ControllerBase.TryUpdateModelAsync(ControllerBase this, Object model, Type modelType, String prefix)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsyncObjectTypeString">
+            <summary>Sets the stub of ControllerBase.TryUpdateModelAsync(ControllerBase this, Object model, Type modelType, String prefix)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsyncOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Threading.Tasks.Task{System.Boolean}})">
+            <summary>Sets stubs of TryUpdateModelAsync(ControllerBase this, !!0 model)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsyncOf1M0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.String,System.Threading.Tasks.Task{System.Boolean}})">
+            <summary>Sets stubs of TryUpdateModelAsync(ControllerBase this, !!0 model, String prefix)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryUpdateModelAsyncOf1M0StringIValueProvider``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.String,Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider,System.Threading.Tasks.Task{System.Boolean}})">
+            <summary>Sets stubs of TryUpdateModelAsync(ControllerBase this, !!0 model, String prefix, IValueProvider valueProvider)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryValidateModel(System.Object)">
+            <summary>Sets the Stub of ControllerBase.TryValidateModel(ControllerBase this, Object model)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryValidateModel(System.Object,System.String)">
+            <summary>Sets the Stub of ControllerBase.TryValidateModel(ControllerBase this, Object model, String prefix)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryValidateModelObject">
+            <summary>Sets the stub of ControllerBase.TryValidateModel(ControllerBase this, Object model)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.TryValidateModelObjectString">
+            <summary>Sets the stub of ControllerBase.TryValidateModel(ControllerBase this, Object model, String prefix)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Unauthorized(System.Object)">
+            <summary>Sets the Stub of ControllerBase.Unauthorized(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Unauthorized">
+            <summary>Sets the Stub of ControllerBase.Unauthorized(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.Unauthorized01">
+            <summary>Sets the stub of ControllerBase.Unauthorized(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.UnauthorizedObject">
+            <summary>Sets the stub of ControllerBase.Unauthorized(ControllerBase this, Object value)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.UnprocessableEntity(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the Stub of ControllerBase.UnprocessableEntity(ControllerBase this, ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.UnprocessableEntity(System.Object)">
+            <summary>Sets the Stub of ControllerBase.UnprocessableEntity(ControllerBase this, Object error)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.UnprocessableEntity">
+            <summary>Sets the Stub of ControllerBase.UnprocessableEntity(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.UnprocessableEntity01">
+            <summary>Sets the stub of ControllerBase.UnprocessableEntity(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.UnprocessableEntityModelStateDictionary">
+            <summary>Sets the stub of ControllerBase.UnprocessableEntity(ControllerBase this, ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.UnprocessableEntityObject">
+            <summary>Sets the stub of ControllerBase.UnprocessableEntity(ControllerBase this, Object error)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblem">
+            <summary>Sets the Stub of ControllerBase.ValidationProblem(ControllerBase this)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblem(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the Stub of ControllerBase.ValidationProblem(ControllerBase this, ModelStateDictionary modelStateDictionary)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblem(Microsoft.AspNetCore.Mvc.ValidationProblemDetails)">
+            <summary>Sets the Stub of ControllerBase.ValidationProblem(ControllerBase this, ValidationProblemDetails descriptor)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblem(System.String,System.String,System.Nullable{System.Int32},System.String,System.String,Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the Stub of ControllerBase.ValidationProblem(ControllerBase this, String detail, String instance, Nullable`1 statusCode, String title, String type, ModelStateDictionary modelStateDictionary)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblem01">
+            <summary>Sets the stub of ControllerBase.ValidationProblem(ControllerBase this)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblemModelStateDictionary">
+            <summary>Sets the stub of ControllerBase.ValidationProblem(ControllerBase this, ModelStateDictionary modelStateDictionary)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblemStringStringNullableOfInt32StringStringModelStateDictionary">
+            <summary>Sets the stub of ControllerBase.ValidationProblem(ControllerBase this, String detail, String instance, Nullable`1 statusCode, String title, String type, ModelStateDictionary modelStateDictionary)</summary>
+        </member>
+        <member name="F:EmployeeBenefitsApi.Controllers.Fakes.StubEmployeeController.ValidationProblemValidationProblemDetails">
+            <summary>Sets the stub of ControllerBase.ValidationProblem(ControllerBase this, ValidationProblemDetails descriptor)</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Fakes.ShimProgram">
+            <summary>Shim type of EmployeeBenefitsApi.Program</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimProgram.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimProgram.#ctor(EmployeeBenefitsApi.Program)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Fakes.ShimProgram.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimProgram.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimProgram.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimProgram.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimProgram.Constructor">
+            <summary>Sets the Shim of Program.Program(Program this)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimProgram.CreateHostBuilderStringArray">
+            <summary>Sets the Shim of Program.CreateHostBuilder(String[] args)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimProgram.MainStringArray">
+            <summary>Sets the Shim of Program.Main(String[] args)</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Fakes.ShimStartup">
+            <summary>Shim type of EmployeeBenefitsApi.Startup</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimStartup.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimStartup.#ctor(EmployeeBenefitsApi.Startup)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Fakes.ShimStartup.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.AllInstances.ConfigurationGet">
+            <summary>Sets the Shim of Startup.get_Configuration(Startup this)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.AllInstances.ConfigureIApplicationBuilderIWebHostEnvironment">
+            <summary>Sets the Shim of Startup.Configure(Startup this, IApplicationBuilder app, IWebHostEnvironment env)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.AllInstances.ConfigureServicesIServiceCollection">
+            <summary>Sets the Shim of Startup.ConfigureServices(Startup this, IServiceCollection services)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.AllInstances.RegisterDependenciesIServiceCollection">
+            <summary>Sets the Shim of Startup.RegisterDependencies(Startup this, IServiceCollection services)</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimStartup.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.ShimStartup.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.ConfigurationGet">
+            <summary>Sets the Shim of Startup.get_Configuration(Startup this)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.ConfigureIApplicationBuilderIWebHostEnvironment">
+            <summary>Sets the Shim of Startup.Configure(Startup this, IApplicationBuilder app, IWebHostEnvironment env)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.ConfigureServicesIServiceCollection">
+            <summary>Sets the Shim of Startup.ConfigureServices(Startup this, IServiceCollection services)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.ConstructorIConfiguration">
+            <summary>Sets the Shim of Startup.Startup(Startup this, IConfiguration configuration)</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.ShimStartup.RegisterDependenciesIServiceCollection">
+            <summary>Sets the Shim of Startup.RegisterDependencies(Startup this, IServiceCollection services)</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Fakes.StubProgram">
+            <summary>Stub type of EmployeeBenefitsApi.Program</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.StubProgram.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.StubProgram.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.StubProgram.InitializeStub">
+            <summary>Initializes a new instance of type StubProgram</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.StubProgram.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.StubProgram.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeBenefitsApi.Fakes.StubStartup">
+            <summary>Stub type of EmployeeBenefitsApi.Startup</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.StubStartup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.StubStartup.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefitsApi.Fakes.StubStartup.InitializeStub">
+            <summary>Initializes a new instance of type StubStartup</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.StubStartup.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefitsApi.Fakes.StubStartup.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

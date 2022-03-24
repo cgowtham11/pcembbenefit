@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeBenefits.Application.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeBenefits.Application.Fakes.StubIEmployeeQuery">
+            <summary>Stub type of EmployeeBenefits.Application.IEmployeeQuery</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Fakes.StubIEmployeeQuery.#ctor">
+            <summary>Initializes a new instance of type StubIEmployeeQuery</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Fakes.StubIEmployeeQuery.EmployeeBenefits#Application#IEmployeeQuery#ExecuteAsync">
+            <summary>Sets the Stub of IEmployeeQuery.ExecuteAsync(IEmployeeQuery this)</summary>
+        </member>
+        <member name="F:EmployeeBenefits.Application.Fakes.StubIEmployeeQuery.ExecuteAsync">
+            <summary>Sets the stub of IEmployeeQuery.ExecuteAsync(IEmployeeQuery this)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Queries.Fakes.StubIEmployeeBenefitService">
+            <summary>Stub type of EmployeeBenefits.Application.Queries.IEmployeeBenefitService</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Queries.Fakes.StubIEmployeeBenefitService.#ctor">
+            <summary>Initializes a new instance of type StubIEmployeeBenefitService</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Queries.Fakes.StubIEmployeeBenefitService.EmployeeBenefits#Application#Queries#IEmployeeBenefitService#ExecuteAsync(EmployeeBenefits.Domain.Employee)">
+            <summary>Sets the Stub of IEmployeeBenefitService.ExecuteAsync(IEmployeeBenefitService this, Employee employee)</summary>
+        </member>
+        <member name="F:EmployeeBenefits.Application.Queries.Fakes.StubIEmployeeBenefitService.ExecuteAsyncEmployee">
+            <summary>Sets the stub of IEmployeeBenefitService.ExecuteAsync(IEmployeeBenefitService this, Employee employee)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator">
+            <summary>Shim type of EmployeeBenefits.Application.Service.BenefitDiscountCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.#ctor(EmployeeBenefits.Application.Service.BenefitDiscountCalculator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.AllInstances.GetBenefitRateBoolean">
+            <summary>Sets the Shim of BenefitDiscountCalculator.GetBenefitRate(BenefitDiscountCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.Constructor">
+            <summary>Sets the Shim of BenefitDiscountCalculator.BenefitDiscountCalculator(BenefitDiscountCalculator this)</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountCalculator.GetBenefitRateBoolean">
+            <summary>Sets the Shim of BenefitDiscountCalculator.GetBenefitRate(BenefitDiscountCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext">
+            <summary>Shim type of EmployeeBenefits.Application.Service.BenefitDiscountContext</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.#ctor(EmployeeBenefits.Application.Service.BenefitDiscountContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.AllInstances.GetBenefitContextString">
+            <summary>Sets the Shim of BenefitDiscountContext.GetBenefitContext(BenefitDiscountContext this, String name)</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.Bind(EmployeeBenefits.Application.Service.IBenefitDiscountContext)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.ConstructorIEnumerableOfIBenefitCalculator">
+            <summary>Sets the Shim of BenefitDiscountContext.BenefitDiscountContext(BenefitDiscountContext this, IEnumerable`1 benefitCalculators)</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimBenefitDiscountContext.GetBenefitContextString">
+            <summary>Sets the Shim of BenefitDiscountContext.GetBenefitContext(BenefitDiscountContext this, String name)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService">
+            <summary>Shim type of EmployeeBenefits.Application.Service.EmployeeBenefitService</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.#ctor(EmployeeBenefits.Application.Service.EmployeeBenefitService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.AllInstances.ExecuteAsyncEmployee">
+            <summary>Sets the Shim of EmployeeBenefitService.ExecuteAsync(EmployeeBenefitService this, Employee employee)</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.Bind(EmployeeBenefits.Application.Queries.IEmployeeBenefitService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.ConstructorIBenefitDiscountContext">
+            <summary>Sets the Shim of EmployeeBenefitService.EmployeeBenefitService(EmployeeBenefitService this, IBenefitDiscountContext benefitDiscountContext)</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimEmployeeBenefitService.ExecuteAsyncEmployee">
+            <summary>Sets the Shim of EmployeeBenefitService.ExecuteAsync(EmployeeBenefitService this, Employee employee)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator">
+            <summary>Shim type of EmployeeBenefits.Application.Service.NameDiscountBenefitCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.#ctor(EmployeeBenefits.Application.Service.NameDiscountBenefitCalculator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.AllInstances.GetBenefitRateBoolean">
+            <summary>Sets the Shim of NameDiscountBenefitCalculator.GetBenefitRate(NameDiscountBenefitCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.Bind(EmployeeBenefits.Application.Service.IBenefitCalculator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.Constructor">
+            <summary>Sets the Shim of NameDiscountBenefitCalculator.NameDiscountBenefitCalculator(NameDiscountBenefitCalculator this)</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNameDiscountBenefitCalculator.GetBenefitRateBoolean">
+            <summary>Sets the Shim of NameDiscountBenefitCalculator.GetBenefitRate(NameDiscountBenefitCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator">
+            <summary>Shim type of EmployeeBenefits.Application.Service.NoDiscountBenefitCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.#ctor(EmployeeBenefits.Application.Service.NoDiscountBenefitCalculator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.AllInstances.GetBenefitRateBoolean">
+            <summary>Sets the Shim of NoDiscountBenefitCalculator.GetBenefitRate(NoDiscountBenefitCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.Bind(EmployeeBenefits.Application.Service.IBenefitCalculator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.Constructor">
+            <summary>Sets the Shim of NoDiscountBenefitCalculator.NoDiscountBenefitCalculator(NoDiscountBenefitCalculator this)</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.ShimNoDiscountBenefitCalculator.GetBenefitRateBoolean">
+            <summary>Sets the Shim of NoDiscountBenefitCalculator.GetBenefitRate(NoDiscountBenefitCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountCalculator">
+            <summary>Stub type of EmployeeBenefits.Application.Service.BenefitDiscountCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountCalculator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountCalculator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountCalculator.InitializeStub">
+            <summary>Initializes a new instance of type StubBenefitDiscountCalculator</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountCalculator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountCalculator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountContext">
+            <summary>Stub type of EmployeeBenefits.Application.Service.BenefitDiscountContext</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountContext.#ctor(System.Collections.Generic.IEnumerable{EmployeeBenefits.Application.Service.IBenefitCalculator})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountContext.InitializeStub">
+            <summary>Initializes a new instance of type StubBenefitDiscountContext</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubBenefitDiscountContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.StubEmployeeBenefitService">
+            <summary>Stub type of EmployeeBenefits.Application.Service.EmployeeBenefitService</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubEmployeeBenefitService.#ctor(EmployeeBenefits.Application.Service.IBenefitDiscountContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubEmployeeBenefitService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubEmployeeBenefitService.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeBenefitService</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubEmployeeBenefitService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubEmployeeBenefitService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.StubIBenefitCalculator">
+            <summary>Stub type of EmployeeBenefits.Application.Service.IBenefitCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubIBenefitCalculator.#ctor">
+            <summary>Initializes a new instance of type StubIBenefitCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubIBenefitCalculator.EmployeeBenefits#Application#Service#IBenefitCalculator#GetBenefitRate(System.Boolean)">
+            <summary>Sets the Stub of IBenefitCalculator.GetBenefitRate(IBenefitCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="F:EmployeeBenefits.Application.Service.Fakes.StubIBenefitCalculator.GetBenefitRateBoolean">
+            <summary>Sets the stub of IBenefitCalculator.GetBenefitRate(IBenefitCalculator this, Boolean isDependent)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.StubIBenefitDiscountContext">
+            <summary>Stub type of EmployeeBenefits.Application.Service.IBenefitDiscountContext</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubIBenefitDiscountContext.#ctor">
+            <summary>Initializes a new instance of type StubIBenefitDiscountContext</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubIBenefitDiscountContext.EmployeeBenefits#Application#Service#IBenefitDiscountContext#GetBenefitContext(System.String)">
+            <summary>Sets the Stub of IBenefitDiscountContext.GetBenefitContext(IBenefitDiscountContext this, String name)</summary>
+        </member>
+        <member name="F:EmployeeBenefits.Application.Service.Fakes.StubIBenefitDiscountContext.GetBenefitContextString">
+            <summary>Sets the stub of IBenefitDiscountContext.GetBenefitContext(IBenefitDiscountContext this, String name)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.StubNameDiscountBenefitCalculator">
+            <summary>Stub type of EmployeeBenefits.Application.Service.NameDiscountBenefitCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubNameDiscountBenefitCalculator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubNameDiscountBenefitCalculator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubNameDiscountBenefitCalculator.InitializeStub">
+            <summary>Initializes a new instance of type StubNameDiscountBenefitCalculator</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubNameDiscountBenefitCalculator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubNameDiscountBenefitCalculator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Service.Fakes.StubNoDiscountBenefitCalculator">
+            <summary>Stub type of EmployeeBenefits.Application.Service.NoDiscountBenefitCalculator</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubNoDiscountBenefitCalculator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubNoDiscountBenefitCalculator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Service.Fakes.StubNoDiscountBenefitCalculator.InitializeStub">
+            <summary>Initializes a new instance of type StubNoDiscountBenefitCalculator</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubNoDiscountBenefitCalculator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Service.Fakes.StubNoDiscountBenefitCalculator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility">
+            <summary>Shim type of EmployeeBenefits.Application.Utility.BenefitUtility</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.#ctor(EmployeeBenefits.Application.Utility.BenefitUtility)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.CalculateAnnualBenefitCostIBenefitDiscountContextEmployee">
+            <summary>Sets the Shim of BenefitUtility.CalculateAnnualBenefitCost(IBenefitDiscountContext _benefitDiscountContext, Employee employee)</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.CalculatePayCheckCostsDecimal">
+            <summary>Sets the Shim of BenefitUtility.CalculatePayCheckCosts(Decimal annualBenefitCost)</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Utility.Fakes.ShimBenefitUtility.Constructor">
+            <summary>Sets the Shim of BenefitUtility.BenefitUtility(BenefitUtility this)</summary>
+        </member>
+        <member name="T:EmployeeBenefits.Application.Utility.Fakes.StubBenefitUtility">
+            <summary>Stub type of EmployeeBenefits.Application.Utility.BenefitUtility</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Utility.Fakes.StubBenefitUtility.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Utility.Fakes.StubBenefitUtility.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeBenefits.Application.Utility.Fakes.StubBenefitUtility.InitializeStub">
+            <summary>Initializes a new instance of type StubBenefitUtility</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Utility.Fakes.StubBenefitUtility.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeBenefits.Application.Utility.Fakes.StubBenefitUtility.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

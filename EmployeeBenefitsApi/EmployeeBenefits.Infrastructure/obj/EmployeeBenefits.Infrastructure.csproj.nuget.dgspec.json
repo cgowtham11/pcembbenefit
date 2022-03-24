@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Infrastructure\\EmployeeBenefits.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Application\\EmployeeBenefits.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Application\\EmployeeBenefits.Application.csproj",
+        "projectName": "EmployeeBenefits.Application",
+        "projectPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Application\\EmployeeBenefits.Application.csproj",
+        "packagesPath": "C:\\Users\\GC108101\\.nuget\\packages\\",
+        "outputPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GC108101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repo.mitchell.com/artifactory/api/nuget/dot-net-internal-repos": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\EmployeeBenefits.Domain.csproj": {
+                "projectPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\EmployeeBenefits.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\EmployeeBenefits.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\EmployeeBenefits.Domain.csproj",
+        "projectName": "EmployeeBenefits.Domain",
+        "projectPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\EmployeeBenefits.Domain.csproj",
+        "packagesPath": "C:\\Users\\GC108101\\.nuget\\packages\\",
+        "outputPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GC108101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repo.mitchell.com/artifactory/api/nuget/dot-net-internal-repos": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Infrastructure\\EmployeeBenefits.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Infrastructure\\EmployeeBenefits.Infrastructure.csproj",
+        "projectName": "EmployeeBenefits.Infrastructure",
+        "projectPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Infrastructure\\EmployeeBenefits.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\GC108101\\.nuget\\packages\\",
+        "outputPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GC108101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repo.mitchell.com/artifactory/api/nuget/dot-net-internal-repos": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Application\\EmployeeBenefits.Application.csproj": {
+                "projectPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Application\\EmployeeBenefits.Application.csproj"
+              },
+              "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\EmployeeBenefits.Domain.csproj": {
+                "projectPath": "C:\\Learn\\EmpBenefits\\EmployeeBenefitsApi\\EmployeeBenefits.Domain\\EmployeeBenefits.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

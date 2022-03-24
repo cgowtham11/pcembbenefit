@@ -1,0 +1,14 @@
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\bin\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.deps.json
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\bin\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.dll
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\bin\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.pdb
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\bin\Debug\netcoreapp3.1\EmployeeBenefits.Application.dll
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\bin\Debug\netcoreapp3.1\EmployeeBenefits.Domain.dll
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\bin\Debug\netcoreapp3.1\EmployeeBenefits.Application.pdb
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\bin\Debug\netcoreapp3.1\EmployeeBenefits.Domain.pdb
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\obj\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.csproj.AssemblyReference.cache
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\obj\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.AssemblyInfoInputs.cache
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\obj\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.AssemblyInfo.cs
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\obj\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\obj\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.csproj.CopyComplete
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\obj\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.dll
+C:\Learn\EmpBenefits\EmployeeBenefitsApi\EmployeeBenefits.Infrastructure\obj\Debug\netcoreapp3.1\EmployeeBenefits.Infrastructure.pdb
